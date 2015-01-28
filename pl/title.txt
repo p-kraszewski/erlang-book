@@ -1,0 +1,3 @@
+% Zapiski na pudełku dyskietek - Erlang
+% Paweł Kraszewski
+

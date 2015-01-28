@@ -8,9 +8,9 @@
 \defaultfontfeatures{Mapping = tex-text, Scale = MatchLowercase}
 
 %% Fonts
-\setmainfont{Verdana}
-\setsansfont{Verdana}
-\setmonofont[Scale=0.85,Mapping=tex-ansi]{Courier New}
+\setmainfont{Linux Libertine}
+\setsansfont{Linux Biolinum}
+\setmonofont[Scale=0.85,Mapping=tex-ansi]{DejaVu Sans Mono}
 
 %% Set Sans font in headings
 \usepackage{sectsty}
@@ -60,24 +60,7 @@
 
 \usepackage{listings}
 
-\lstdefinelanguage{Go}{
-  keywords = {run, build, new, go, true, false, func, return, nil, switch, select, var, if, range, for, else, case, break, int, string, bool, make, len, append},
-  keywordstyle = \color{SkyBlue}\bfseries,
-  ndkeywords = {package, import, struct, interface, main},
-  ndkeywordstyle = \color{Aluminium6}\bfseries,
-  identifierstyle = \color{Black},
-  sensitive = false,
-  comment = [l]{//},
-  morecomment = [s]{/*}{*/},
-  commentstyle = \color{Plum}\ttfamily,
-  stringstyle = \color{Green}\ttfamily,
-  morestring = [b]',
-  morestring = [b]`,
-  morestring = [b]"
-}
-
 \lstset{
-  language = Go,
   backgroundcolor = \color{Aluminium1},
   extendedchars = true,
   basicstyle = \normalsize\ttfamily,
@@ -85,9 +68,7 @@
   showspaces = false,
   tabsize = 1,
   breaklines = true,
-  showtabs = false
-}
-
+  showtabs = false}
 
 % Links
 
